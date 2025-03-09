@@ -1,0 +1,34 @@
+{
+    "expo": {
+      "name": "Nubank Clone",
+      "slug": "nubank-clone",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./src/assets/images/logo.png", 
+      "splash": {
+        "image": "./src/assets/splash/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#820ad1"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.nubankclone"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./src/assets/images/logo.png",
+          "backgroundColor": "#820ad1"
+        },
+        "package": "com.nubankclone" 
+      },
+      "web": {
+        "favicon": "./src/assets/images/favicon.png"
+      }
+    }
+  }
