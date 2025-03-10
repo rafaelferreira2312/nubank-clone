@@ -6,6 +6,9 @@
 
 Um clone funcional do aplicativo Nubank desenvolvido em React Native. O projeto inclui funcionalidades como autenticação biométrica, leitura de código de barras, impressão de comprovantes e navegação entre telas. 
 
+![Tela nubank-1](/src/assets/nubank-1.PNG)
+![Tela nubank-2](/src/assets/nubank-2.PNG)
+
 ## 📋 Índice 
 
 - Funcionalidades Principais 
