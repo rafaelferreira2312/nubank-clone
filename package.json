@@ -9,11 +9,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/webpack-config": "^18.0.1",
+    "@expo/webpack-config": "^19.0.1",
     "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/stack": "^6.3.16",
-    "expo": "~48.0.18",
+    "expo": "^52.0.37",
     "expo-camera": "~13.2.1",
     "expo-font": "~11.1.1",
     "expo-status-bar": "~1.4.4",

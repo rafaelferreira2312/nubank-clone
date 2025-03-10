@@ -50,13 +50,13 @@ Um clone funcional do aplicativo Nubank desenvolvido em React Native. O projeto 
         
 ## 💻 Tecnologias Utilizadas 
 
-    Front-end:  React Native
-    Navegação:  React Navigation
-    Autenticação Biométrica:  react-native-biometrics
-    Leitura de Código de Barras:  expo-camera
-    Impressão de PDF:  react-native-html-to-pdf, react-native-print
-    Design:  react-native-paper, react-native-vector-icons
-    Gestos e Animações:  react-native-gesture-handler, react-native-reanimated
+- Front-end:  React Native
+- Navegação:  React Navigation
+- Autenticação Biométrica:  react-native-biometrics
+- Leitura de Código de Barras:  expo-camera
+- Impressão de PDF:  react-native-html-to-pdf, react-native-print
+- Design:  react-native-paper, react-native-vector-icons
+- Gestos e Animações:  react-native-gesture-handler, react-native-reanimated
 
 ## ⚙️ Pré-requisitos 
 
@@ -76,7 +76,6 @@ git clone https://github.com/seu-usuario/nubank-clone.git
 cd nubank-clone
 ```
  
-
 2. Instale as Dependências:  
 ```bash bash
  npm install --legacy-peer-deps
@@ -89,8 +88,58 @@ yarn install
 3. Configure o Ambiente Android (Opcional):  
 - Configure o SDK do Android e adicione ao Path.
 - Inicie o emulador via Android Studio.
-         
+
+## ▶️ Execução 
+Com Expo  
+
+1. Execute o servidor Expo: 
+```bash
+npx expo start
+```  
+
+2. Abra o app no dispositivo: 
+- Use o QR Code com o app Expo Go  no celular.
+- Ou pressione a para abrir no emulador Android.
+ 
+3. Sem Expo (React Native CLI)  
+
+- Execute o projeto no Android: 
+```bash     
+npx react-native run-android
+```
+ 
+4. Execute o projeto no iOS (macOS): 
+```bash    
+npx react-native run-ios
+```    
      
+## 📂 Estrutura do Projeto
+```bash 
+nubank-clone/
+├── android/          # Configurações específicas do Android
+├── ios/              # Configurações específicas do iOS
+├── src/
+│   ├── components/   # Componentes reutilizáveis
+│   ├── screens/      # Telas principais
+│   ├── services/     # Lógica de autenticação e APIs
+│   ├── assets/       # Imagens, ícones e fontes
+│   ├── navigation/   # Configuração de navegação
+│   └── utils/        # Funções auxiliares
+├── App.js            # Arquivo principal
+├── package.json      # Dependências do projeto
+└── README.md         # Documentação do projeto
+``` 
+
+## 🤝 Contribuição 
+
+Contribuições são bem-vindas! Para contribuir: 
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature (git checkout -b feature/nova-funcionalidade).
+3. Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade').
+4. Envie para a branch (git push origin feature/nova-funcionalidade).
+5. Abra um Pull Request.
+        
 
 ## 📄 Licença 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE  para mais detalhes. 
